@@ -11,13 +11,7 @@
 }
 
 
-.raleway-texts {
-  font-family: "Raleway", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-}
+
 
 /* Universal CSS properties */
 
@@ -129,6 +123,73 @@ nav{
     margin: 20px 0;
 }
 
+/* Curiculum Section Styles */
+.curriculum{
+    background-image: url('assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.raleway-texts {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+  }
+.curriculum h2{
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+}
+.curriculum-heading{
+    font-size: 24px;
+    color: #202020;
+    margin-bottom: 20px;
+}
+
+.curriculum-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.curriculum-1,
+.curriculum-2,
+.curriculum-3 {
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    
+}
+.curriculum-1{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(0, 212, 255, 0.1) 100%);
+
+}
+.curriculum-2{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(255, 244, 220, 1) 100%);
+
+}
+
+.curriculum-3{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 40%, rgba(242, 232, 255, 1) 100%);
+
+}
+
+.curriculum-img{
+    width: 130px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.read-more{
+    margin: 20px 0;
+}
+
+
 
 
 
@@ -157,7 +218,7 @@ nav{
         display: inline;
     }
 
-
+/* Hero section Mobile  */
 
     .hero{
         flex-direction: column-reverse;
@@ -175,6 +236,23 @@ nav{
     .hero-description{
         font-size: 14px;
         padding: 0 10%;
+    }
+
+    /* Curriculum Section Mobile */
+    .raleway-texts {
+        font-size: 12px;
+      }
+    .curriculum-cards{
+        flex-direction: column;
+    }
+    .curriculum h2{
+        font-size: 26px;
+    }
+    .curriculum-heading{
+        font-size: 17px;
+    }
+    .see-more{
+        font-size: 14px;
     }
     
 }
