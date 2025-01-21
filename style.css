@@ -189,6 +189,25 @@ nav{
     margin: 20px 0;
 }
 
+/* Navigation Section Styles  */
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.navigation i{
+    font-size: 20px;
+    background-color: #FEA301;
+    padding: 20px 22px;
+    border-radius: 48%;
+    color: #fff;
+    font-weight: 700;
+}
+
 
 
 
@@ -253,6 +272,10 @@ nav{
     }
     .see-more{
         font-size: 14px;
+    }
+
+    .navigation{
+        display: none;
     }
     
 }
